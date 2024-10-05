@@ -1,0 +1,200 @@
+body {
+    background: #000;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .main {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  .moblie {
+    border: 2.5px solid;
+    width: 18rem;
+    height: 30rem;
+    border-radius: 40px;
+    background: url(https://w0.peakpx.com/wallpaper/730/501/HD-wallpaper-iphone-14-pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  .innerMoblie {
+    position: relative;
+    border: 7px solid black;
+    width: 17.2rem;
+    height: 29.2rem;
+    border-radius: 40px;
+  }
+  .vol-up,
+  .vol-down {
+    width: 5px;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .vol-up {
+    top: 5rem;
+    left: -11px;
+  }
+  .vol-down {
+    top: 8rem;
+    left: -11px;
+  }
+  .vol-swith-of {
+    width: 5px;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -11px;
+    top: 6rem;
+    cursor: pointer;
+    
+  }
+  .center {
+    position: relative;
+  }
+  .box {
+    width: 7rem;
+    height: 2rem;
+    background: #000;
+    position: absolute;
+    top: 0.5rem;
+    left: 5.2rem;
+    border-radius: 50px;
+  }
+  .camra {
+    position: relative;
+    left: 1rem;
+    top: 0.6rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(76, 74, 74);
+  }
+  .innercam {
+    position: relative;
+    top: 3.5px;
+    width: 2.5px;
+    height: 2.5px;
+    background-color: rgb(23, 23, 23);
+    margin-left: 3.5px;
+  }
+
+  .sound {
+    position: relative;
+    top: 0.1rem;
+    width: 2.5rem;
+    left: 2.5rem;
+    height: 5px;
+    border-radius: 50px;
+    background-color: rgb(60, 59, 59);
+  }
+  .lock{
+    position: absolute;
+    top: 3rem;
+    left: 2.4rem;
+  }
+  .date {
+    position: absolute;
+    top: 5rem;
+    left: 4.2rem;
+    font-size: 1.8rem;
+  }
+  .hidden {
+    display: none;
+  }
+  .indicator {
+    position: absolute;
+    top: 4.8rem;
+    left: 0.7rem;
+    width: 1.8rem;
+    height: 6rem;
+    background-color: aliceblue;
+    border-radius: 50px;
+    display: none; /* Initially hidden */
+  }
+  .innerIndicator {
+    position: absolute;
+    background-color: rgba(6, 85, 222, 0.808);
+    width: 1.8rem;
+    height: 2rem;
+    bottom: 0;
+    border-radius: 50px;
+  }
+  .notification{
+    position: absolute;
+    top: 35%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+  }
+ 
+  .notify-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .notify-para{
+   position: relative;
+   right: 3.5rem;
+   font-family: poppins;
+   font-weight: 400;
+  }
+  .notify-name-para{
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    padding-top: 0.8rem;
+    font-family: poppins;
+  }
+  .notify-name-para-1{
+    font-size: 14px;
+    color: #000;
+    color: #000;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .notification-1{
+    position: absolute;
+    top: 58%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+  }
+  .notify-details-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .notify-gmail{
+    position: relative;
+    right: 3rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .icons{
+    position: absolute;
+    right: -3.8rem;
+    top: 1px;
+    
+  }
+  #network {
+    font-size: 9px;
+  }
+  #wifi{
+    font-size: 9px;
+  }
+  #battery{
+    font-size: 11px;
+  }
